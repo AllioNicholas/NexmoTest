@@ -11,8 +11,8 @@ import UIKit
 public class NexmoSMS: NSObject {
     private let baseURL = "https://rest.nexmo.com/sms/json"
     private let apiKey = "4b2ed2ad"
-    private let apiSecret = "518bbf6dd9b423e8"
-    private let sender = "Nicholas Test App"
+    private let apiSecret = ""
+    private let sender = "NicholasTestApp"
     
     private let session = URLSession.shared
     
