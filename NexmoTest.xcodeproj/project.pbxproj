@@ -8,12 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		012D3B351E7BFADD00F2B5D1 /* NexmoTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 012D3B331E7BFADD00F2B5D1 /* NexmoTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		012D3B3C1E7C026F00F2B5D1 /* NexmoSMS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012D3B3B1E7C026F00F2B5D1 /* NexmoSMS.swift */; };
+		012D3B441E7C086400F2B5D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012D3B431E7C086400F2B5D1 /* AppDelegate.swift */; };
+		012D3B461E7C086400F2B5D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012D3B451E7C086400F2B5D1 /* ViewController.swift */; };
+		012D3B491E7C086400F2B5D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012D3B471E7C086400F2B5D1 /* Main.storyboard */; };
+		012D3B4B1E7C086400F2B5D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012D3B4A1E7C086400F2B5D1 /* Assets.xcassets */; };
+		012D3B4E1E7C086400F2B5D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012D3B4C1E7C086400F2B5D1 /* LaunchScreen.storyboard */; };
+		012D3B541E7C094A00F2B5D1 /* NexmoTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012D3B301E7BFADD00F2B5D1 /* NexmoTest.framework */; };
+		012D3B551E7C094A00F2B5D1 /* NexmoTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 012D3B301E7BFADD00F2B5D1 /* NexmoTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		012D3B561E7C094A00F2B5D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 012D3B271E7BFADD00F2B5D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 012D3B2F1E7BFADD00F2B5D1;
+			remoteInfo = NexmoTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		012D3B581E7C094A00F2B5D1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				012D3B551E7C094A00F2B5D1 /* NexmoTest.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		012D3B301E7BFADD00F2B5D1 /* NexmoTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NexmoTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		012D3B331E7BFADD00F2B5D1 /* NexmoTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NexmoTest.h; sourceTree = "<group>"; };
 		012D3B341E7BFADD00F2B5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		012D3B3B1E7C026F00F2B5D1 /* NexmoSMS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NexmoSMS.swift; sourceTree = "<group>"; };
+		012D3B411E7C086400F2B5D1 /* NexmoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NexmoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		012D3B431E7C086400F2B5D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		012D3B451E7C086400F2B5D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		012D3B481E7C086400F2B5D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		012D3B4A1E7C086400F2B5D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		012D3B4D1E7C086400F2B5D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		012D3B4F1E7C086400F2B5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +64,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		012D3B3E1E7C086400F2B5D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012D3B541E7C094A00F2B5D1 /* NexmoTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -31,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				012D3B321E7BFADD00F2B5D1 /* NexmoTest */,
+				012D3B421E7C086400F2B5D1 /* NexmoApp */,
 				012D3B311E7BFADD00F2B5D1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				012D3B301E7BFADD00F2B5D1 /* NexmoTest.framework */,
+				012D3B411E7C086400F2B5D1 /* NexmoApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,8 +98,22 @@
 			children = (
 				012D3B331E7BFADD00F2B5D1 /* NexmoTest.h */,
 				012D3B341E7BFADD00F2B5D1 /* Info.plist */,
+				012D3B3B1E7C026F00F2B5D1 /* NexmoSMS.swift */,
 			);
 			path = NexmoTest;
+			sourceTree = "<group>";
+		};
+		012D3B421E7C086400F2B5D1 /* NexmoApp */ = {
+			isa = PBXGroup;
+			children = (
+				012D3B431E7C086400F2B5D1 /* AppDelegate.swift */,
+				012D3B451E7C086400F2B5D1 /* ViewController.swift */,
+				012D3B471E7C086400F2B5D1 /* Main.storyboard */,
+				012D3B4A1E7C086400F2B5D1 /* Assets.xcassets */,
+				012D3B4C1E7C086400F2B5D1 /* LaunchScreen.storyboard */,
+				012D3B4F1E7C086400F2B5D1 /* Info.plist */,
+			);
+			path = NexmoApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,16 +148,42 @@
 			productReference = 012D3B301E7BFADD00F2B5D1 /* NexmoTest.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		012D3B401E7C086400F2B5D1 /* NexmoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 012D3B501E7C086400F2B5D1 /* Build configuration list for PBXNativeTarget "NexmoApp" */;
+			buildPhases = (
+				012D3B3D1E7C086400F2B5D1 /* Sources */,
+				012D3B3E1E7C086400F2B5D1 /* Frameworks */,
+				012D3B3F1E7C086400F2B5D1 /* Resources */,
+				012D3B581E7C094A00F2B5D1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				012D3B571E7C094A00F2B5D1 /* PBXTargetDependency */,
+			);
+			name = NexmoApp;
+			productName = NexmoApp;
+			productReference = 012D3B411E7C086400F2B5D1 /* NexmoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		012D3B271E7BFADD00F2B5D1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Nicholas Allio";
 				TargetAttributes = {
 					012D3B2F1E7BFADD00F2B5D1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4R644JN289;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					012D3B401E7C086400F2B5D1 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 4R644JN289;
 						ProvisioningStyle = Automatic;
@@ -106,6 +196,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 012D3B261E7BFADD00F2B5D1;
 			productRefGroup = 012D3B311E7BFADD00F2B5D1 /* Products */;
@@ -113,6 +204,7 @@
 			projectRoot = "";
 			targets = (
 				012D3B2F1E7BFADD00F2B5D1 /* NexmoTest */,
+				012D3B401E7C086400F2B5D1 /* NexmoApp */,
 			);
 		};
 /* End PBXProject section */
@@ -125,6 +217,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		012D3B3F1E7C086400F2B5D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012D3B4E1E7C086400F2B5D1 /* LaunchScreen.storyboard in Resources */,
+				012D3B4B1E7C086400F2B5D1 /* Assets.xcassets in Resources */,
+				012D3B491E7C086400F2B5D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -132,10 +234,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				012D3B3C1E7C026F00F2B5D1 /* NexmoSMS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		012D3B3D1E7C086400F2B5D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012D3B461E7C086400F2B5D1 /* ViewController.swift in Sources */,
+				012D3B441E7C086400F2B5D1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		012D3B571E7C094A00F2B5D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 012D3B2F1E7BFADD00F2B5D1 /* NexmoTest */;
+			targetProxy = 012D3B561E7C094A00F2B5D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		012D3B471E7C086400F2B5D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				012D3B481E7C086400F2B5D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		012D3B4C1E7C086400F2B5D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				012D3B4D1E7C086400F2B5D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		012D3B361E7BFADD00F2B5D1 /* Debug */ = {
@@ -240,6 +379,28 @@
 		012D3B391E7BFADD00F2B5D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4R644JN289;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NexmoTest/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nicholas.allio.NexmoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		012D3B3A1E7BFADD00F2B5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 4R644JN289;
@@ -254,23 +415,32 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
-			name = Debug;
+			name = Release;
 		};
-		012D3B3A1E7BFADD00F2B5D1 /* Release */ = {
+		012D3B511E7C086400F2B5D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4R644JN289;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = NexmoTest/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nicholas.allio.NexmoTest;
+				INFOPLIST_FILE = NexmoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nicholas.allio.NexmoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		012D3B521E7C086400F2B5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4R644JN289;
+				INFOPLIST_FILE = NexmoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nicholas.allio.NexmoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -292,6 +462,14 @@
 			buildConfigurations = (
 				012D3B391E7BFADD00F2B5D1 /* Debug */,
 				012D3B3A1E7BFADD00F2B5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		012D3B501E7C086400F2B5D1 /* Build configuration list for PBXNativeTarget "NexmoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				012D3B511E7C086400F2B5D1 /* Debug */,
+				012D3B521E7C086400F2B5D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>NexmoApp.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>NexmoTest.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>012D3B2F1E7BFADD00F2B5D1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>012D3B401E7C086400F2B5D1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
